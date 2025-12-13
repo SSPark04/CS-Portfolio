@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sangwoo Park | Software Engineer</title>
+    <meta name="description" content="CS portfolio - projects, experience, research." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#about">Skip to Content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <div class="brand">
+            <a href="#top">Sangwoo Park</a>
+          </div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experiences</a>
+            <a href="#projects">Projects</a>
+            <a href="#links">Links</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="container">
+      <!-- Hero -->
+      <section class="hero" aria-label="Hero">
+        <h1 class="hero-name">Sangwoo Park</h1>
+        <p class="hero-role">Software Engineer</p>
+        <p class="hero-tagline">Building Scalable Systems</p>
+
+        <p class="hero-meta">Oregon, United States</p>
+
+        <p class="hero-summary">
+          I build practical software and research-driven prototypes—ranging from ML-enabled mobile applications to web systems—focused on performance, reliability, and product impact.
+        </p>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <h3 class="section-subtitle">About me</h3>
+        <p class="section-text">
+          <!-- TODO: 5~7문장 정도로. (CS 전공 + 관심 분야 + 현재 집중하는 것 + 강점 1~2개) -->
+          I’m a Computer Science student focused on building reliable systems and ML-driven applications. Recently, I’ve been working on a Food AI research project to evaluate on-device inference performance and model quality, while also shipping web and Unity-based projects.
+        </p>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <h2 class="section-title">Experiences</h2>
+        <h3 class="section-subtitle">Work / Research</h3>
+
+        <article class="item">
+          <div class="item-row">
+            <div class="item-date">2025 — Present</div>
+            <div class="item-main">
+              <div class="item-title">
+                Food AI Research Project · Research Assistant
+              </div>
+              <p class="item-desc">
+                <!-- TODO: 2~3줄 요약 + 성과/수치(있으면) -->
+                Collaborated on produce freshness modeling and mobile deployment workflows, focusing on evaluation pipelines and reproducible testing for TFLite models.
+              </p>
+              <ul class="item-bullets">
+                <li>Designed a repeatable inference benchmarking workflow (multiple runs per image, device profiles).</li>
+                <li>Built/maintained evaluation outputs for analysis (logs/exports, metrics summaries).</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- 필요하면 더 추가 -->
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <h3 class="section-subtitle">Selected projects</h3>
+
+        <article class="project">
+          <div class="project-header">
+            <div class="project-title">Food AI (Mobile + TFLite Evaluation)</div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            <!-- TODO: 2~3줄: 문제/목표/임팩트 -->
+            A mobile workflow to test multiple TFLite models on-device, run repeated inference, and export results for statistical analysis.
+          </p>
+          <ul class="project-bullets">
+            <li><span class="label">Tech:</span> Flutter, TFLite, Android Studio</li>
+            <li><span class="label">Focus:</span> Performance benchmarking, reproducibility, results export</li>
+            <li><span class="label">Role:</span> App integration + evaluation pipeline</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-header">
+            <div class="project-title">Stock Website</div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noreferrer">Live</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            A web application that presents stock-related data with a clean UI and structured pages for quick exploration.
+          </p>
+          <ul class="project-bullets">
+            <li><span class="label">Tech:</span> (여기 실제 스택 기입)</li>
+            <li><span class="label">Contribution:</span> (본인 역할 1~2개)</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-header">
+            <div class="project-title">Unity Project</div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noreferrer">Video</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            A Unity prototype focusing on gameplay systems and clean state-driven architecture.
+          </p>
+          <ul class="project-bullets">
+            <li><span class="label">Tech:</span> Unity, C#</li>
+            <li><span class="label">Focus:</span> Core gameplay loop, tooling, performance considerations</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Links -->
+      <section id="links" class="section">
+        <h2 class="section-title">Links</h2>
+        <div class="links">
+          <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
+          <a href="mailto:you@example.com">you@example.com</a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Sangwoo Park</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
