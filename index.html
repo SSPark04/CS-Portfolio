@@ -1,159 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Sangwoo Park | Software Engineer</title>
-    <meta name="description" content="CS portfolio - projects, experience, research." />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip" href="#about">Skip to Content</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sangwoo Park | Software Engineering Student</title>
+  <meta name="description" content="Sangwoo Park - CS student building reliable systems and ML-driven applications." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-    <header class="site-header">
-      <div class="container">
-        <nav class="nav">
-          <div class="brand">
-            <a href="#top">Sangwoo Park</a>
-          </div>
-          <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#experience">Experiences</a>
-            <a href="#projects">Projects</a>
-            <a href="#links">Links</a>
-          </div>
+  <div class="layout">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <h1 class="name">Sangwoo Park</h1>
+        <p class="role">Software Engineering Student</p>
+
+        <p class="tagline">Building reliable systems and ML-driven applications.</p>
+
+        <p class="location">Oregon, United States</p>
+
+        <nav class="toc">
+          <a href="#about">About</a>
+          <a href="#experience">Experiences</a>
+          <a href="#projects">Projects</a>
+          <a href="#links">Links</a>
         </nav>
       </div>
-    </header>
+    </aside>
 
-    <main id="top" class="container">
-      <!-- Hero -->
-      <section class="hero" aria-label="Hero">
-        <h1 class="hero-name">Sangwoo Park</h1>
-        <p class="hero-role">Software Engineer</p>
-        <p class="hero-tagline">Building Scalable Systems</p>
+    <!-- RIGHT CONTENT -->
+    <main class="content">
 
-        <p class="hero-meta">Oregon, United States</p>
-
-        <p class="hero-summary">
-          I build practical software and research-driven prototypes—ranging from ML-enabled mobile applications to web systems—focused on performance, reliability, and product impact.
-        </p>
-      </section>
-
-      <!-- About -->
+      <!-- ABOUT -->
       <section id="about" class="section">
-        <h2 class="section-title">About</h2>
-        <h3 class="section-subtitle">About me</h3>
-        <p class="section-text">
-          <!-- TODO: 5~7문장 정도로. (CS 전공 + 관심 분야 + 현재 집중하는 것 + 강점 1~2개) -->
-          I’m a Computer Science student focused on building reliable systems and ML-driven applications. Recently, I’ve been working on a Food AI research project to evaluate on-device inference performance and model quality, while also shipping web and Unity-based projects.
+        <h2>About</h2>
+        <p>
+          I’m a Computer Science student at Oregon State University with a strong interest
+          in building reliable systems and ML-driven applications.
+        </p>
+        <p>
+          Recently, I’ve been working on a Food AI research project focused on evaluating
+          on-device inference performance using TFLite, while also developing web and
+          Unity-based projects that emphasize clean architecture, debugging, and performance.
         </p>
       </section>
 
-      <!-- Experience -->
+      <!-- EXPERIENCE -->
       <section id="experience" class="section">
-        <h2 class="section-title">Experiences</h2>
-        <h3 class="section-subtitle">Work / Research</h3>
+        <h2>Experiences</h2>
 
-        <article class="item">
-          <div class="item-row">
-            <div class="item-date">2025 — Present</div>
-            <div class="item-main">
-              <div class="item-title">
-                Food AI Research Project · Research Assistant
-              </div>
-              <p class="item-desc">
-                <!-- TODO: 2~3줄 요약 + 성과/수치(있으면) -->
-                Collaborated on produce freshness modeling and mobile deployment workflows, focusing on evaluation pipelines and reproducible testing for TFLite models.
-              </p>
-              <ul class="item-bullets">
-                <li>Designed a repeatable inference benchmarking workflow (multiple runs per image, device profiles).</li>
-                <li>Built/maintained evaluation outputs for analysis (logs/exports, metrics summaries).</li>
-              </ul>
-            </div>
+        <div class="experience">
+          <div class="date">2024 — Present</div>
+          <div class="details">
+            <h3>Food AI Research Project · Research Assistant</h3>
+            <p>
+              Worked on a fruit freshness detection project that integrates ML models into
+              a Flutter-based mobile application, focusing on on-device inference performance
+              and reproducible evaluation workflows.
+            </p>
+            <ul>
+              <li>
+                Built a complete Flutter + TFLite workflow including image upload,
+                model loading, inference execution, and results visualization.
+              </li>
+              <li>
+                Benchmarked six ML models by running repeated inference tests to
+                compare accuracy and latency across models.
+              </li>
+              <li>
+                Collaborated with an ML developer to align preprocessing and optimize
+                deployment performance.
+              </li>
+            </ul>
           </div>
-        </article>
+        </div>
 
-        <!-- 필요하면 더 추가 -->
-      </section>
-
-      <!-- Projects -->
-      <section id="projects" class="section">
-        <h2 class="section-title">Projects</h2>
-        <h3 class="section-subtitle">Selected projects</h3>
-
-        <article class="project">
-          <div class="project-header">
-            <div class="project-title">Food AI (Mobile + TFLite Evaluation)</div>
-            <div class="project-links">
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="#" target="_blank" rel="noreferrer">Demo</a>
-            </div>
+        <div class="experience">
+          <div class="date">2023 — Present</div>
+          <div class="details">
+            <h3>President · LikeLion at Oregon State University</h3>
+            <ul>
+              <li>Lead a 10+ member coding club focused on Python, Unity, and web development.</li>
+              <li>Manage multiple project teams and organize hands-on coding sessions.</li>
+              <li>Coordinate recruitment, onboarding, and technical workshops each term.</li>
+            </ul>
           </div>
-          <p class="project-desc">
-            <!-- TODO: 2~3줄: 문제/목표/임팩트 -->
-            A mobile workflow to test multiple TFLite models on-device, run repeated inference, and export results for statistical analysis.
-          </p>
-          <ul class="project-bullets">
-            <li><span class="label">Tech:</span> Flutter, TFLite, Android Studio</li>
-            <li><span class="label">Focus:</span> Performance benchmarking, reproducibility, results export</li>
-            <li><span class="label">Role:</span> App integration + evaluation pipeline</li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-header">
-            <div class="project-title">Stock Website</div>
-            <div class="project-links">
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="#" target="_blank" rel="noreferrer">Live</a>
-            </div>
-          </div>
-          <p class="project-desc">
-            A web application that presents stock-related data with a clean UI and structured pages for quick exploration.
-          </p>
-          <ul class="project-bullets">
-            <li><span class="label">Tech:</span> (여기 실제 스택 기입)</li>
-            <li><span class="label">Contribution:</span> (본인 역할 1~2개)</li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-header">
-            <div class="project-title">Unity Project</div>
-            <div class="project-links">
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="#" target="_blank" rel="noreferrer">Video</a>
-            </div>
-          </div>
-          <p class="project-desc">
-            A Unity prototype focusing on gameplay systems and clean state-driven architecture.
-          </p>
-          <ul class="project-bullets">
-            <li><span class="label">Tech:</span> Unity, C#</li>
-            <li><span class="label">Focus:</span> Core gameplay loop, tooling, performance considerations</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- Links -->
-      <section id="links" class="section">
-        <h2 class="section-title">Links</h2>
-        <div class="links">
-          <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
-          <a href="mailto:you@example.com">you@example.com</a>
         </div>
       </section>
 
-      <footer class="footer">
-        <p>© <span id="year"></span> Sangwoo Park</p>
-      </footer>
-    </main>
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <h2>Projects</h2>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+        <div class="project">
+          <h3>Food AI — Mobile Fruit Freshness Detection</h3>
+          <p>
+            A Flutter-based mobile application that integrates TFLite models to predict
+            fruit freshness, with an emphasis on benchmarking model accuracy and inference
+            speed directly on-device.
+          </p>
+          <p class="meta">
+            <strong>Tech:</strong> Flutter, TFLite, Android Studio<br />
+            <strong>Focus:</strong> On-device ML, performance benchmarking, evaluation pipelines
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Stock Recommendation Website</h3>
+          <p>
+            A Python/Flask web application for live stock tracking that combines real-time
+            ticker search with automated news scraping and reliability-based scoring.
+          </p>
+          <ul>
+            <li>Implemented live stock search and automated financial news scraping.</li>
+            <li>Designed an interactive dashboard showing trending tickers and summarized insights.</li>
+          </ul>
+          <p class="meta">
+            <strong>Tech:</strong> Python, Flask, Web Scraping
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Unity Game Project</h3>
+          <p>
+            A Unity-based project focused on core gameplay systems, state-driven architecture,
+            and debugging complex interaction logic.
+          </p>
+          <p class="meta">
+            <strong>Tech:</strong> Unity, C#<br />
+            <strong>Focus:</strong> System design, debugging, gameplay logic
+          </p>
+        </div>
+      </section>
+
+      <!-- LINKS -->
+      <section id="links" class="section">
+        <h2>Links</h2>
+        <ul class="links">
+          <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume (PDF)</a></li>
+          <li><a href="mailto:parks3@oregonstate.edu">parks3@oregonstate.edu</a></li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        © 2025 Sangwoo Park
+      </footer>
+
+    </main>
+  </div>
+
+</body>
 </html>
